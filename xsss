@@ -1,0 +1,123 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/xLRUSiKx"))()
+
+local Window = OrionLib:MakeWindow({Name = "通用脚本", HidePremium = false, SaveConfig = true,IntroText = "通用脚本", ConfigFolder = "通用脚本"})
+
+local player = Window:MakeTab({
+
+	Name = "玩家",	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+player:AddTextbox({
+
+	Name = "传送",
+
+	Callback = function()
+
+		game.Players.LocalPlayer:Kick(愚人节)
+
+	end
+
+})
+
+player:AddTextbox({
+
+	Name = "重力",
+
+	Callback = function()
+
+game.Players.LocalPlayer:Kick()
+
+	end
+
+})
+
+player:AddButton({
+
+	Name = "穿墙",
+
+	Callback = function()
+
+      	game.Players.LocalPlayer:Kick()
+
+  	end
+
+})
+
+player:AddButton({
+
+	Name = "飞行",
+
+	Callback = function()
+
+      	game.Players.LocalPlayer:Kick()
+
+  	end
+
+})
+
+local other = Window:MakeTab({
+
+    Name = "其他",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+other:AddButton({
+
+	Name = "透视",
+
+	Callback = function()
+
+      	game.Players.LocalPlayer:Kick(🈶)
+
+  	end
+
+})
+
+other:AddButton({
+
+	Name = "甩人",
+
+	Callback = function()
+
+      	game.Players.LocalPlayer:Kick(264)
+
+  	end
+
+})
+
+other:AddButton({
+
+	Name = "吸人",
+
+	Callback = function()
+
+      	game.Players.LocalPlayer:Kick(愚人节)
+
+  	end
+
+})
+
+local about = Window:MakeTab({
+
+    Name = "关于",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+about:AddParagraph(" ","")
+
+ 
+
+about:AddParagraph(" "," ")
+
+OrionLib:Init()
